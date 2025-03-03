@@ -184,3 +184,6 @@ This project demonstrates a Kafka Producer using Spring Boot. The producer sends
 7. consume message
 
     sh bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic NewTopic --from-beginning
+
+![Kafka Producer Flow](src/main/resources/Images/Kafka-diagram-flow.PNG)
+
